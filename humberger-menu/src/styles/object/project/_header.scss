@@ -1,0 +1,10 @@
+@use "foundation/mixin";
+
+.p-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	@include mixin.breakpoint ( tablet ) {
+		max-width: 1024px;
+	}
+}
