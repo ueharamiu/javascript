@@ -1,5 +1,18 @@
 @use "foundation/mixin";
 
 .p-list {
-	display: flex;
+	display: none;
+	z-index: 9999;
+	position: fixed;
+	width: 100vw;
+	height: calc( 100% - 50px );
+	background: #fff;
+	@include mixin.breakpoint ( pc ) {
+		display: flex;
+		position: static;
+		background: none;
+		width: 100%;
+		height: auto;
+	}
+
 }
