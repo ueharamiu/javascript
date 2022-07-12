@@ -10,19 +10,23 @@
 		<title>ハンバーガーメニュー練習ページ</title>
 	</head>
 	<body>
-		<div class="l-header">
-			<div class="p-header">
-				<ul class="p-list">
-					<li class="p-list__item">メニュー1</li>
-					<li class="p-list__item">メニュー2</li>
-					<li class="p-list__item">メニュー3</li>
-					<li class="p-list__item">メニュー4</li>
-					<li class="p-list__item">メニュー5</li>
-				</ul>
+		<header class="l-header">
+			<!-- <div class=""> -->
 				<button class="p-button js-humberger">
 					<span>メニュー展開ボタン</span>
 				</button>
-			</div>
-		</div>
+				<nav class="p-header">
+					<ul class="p-list js-nav">
+						<li class="p-list__item">メニュー1</li>
+						<li class="p-list__item">メニュー2</li>
+						<li class="p-list__item">メニュー3</li>
+						<li class="p-list__item">メニュー4</li>
+						<li class="p-list__item">メニュー5</li>
+					</ul>
+				</nav>
+			<!-- </div> -->
+		</header>
+		<script src="js/bundle.js"></script>
+		<script src="./src/scripts/humberger.js"></script>
 	</body>
 </html>
