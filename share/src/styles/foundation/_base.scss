@@ -1,0 +1,25 @@
+@use "foundation/mixin";
+@use "sass:math";
+
+
+$root-font-size: 16;
+@mixin font-rem($font-size-px, $root-font-size) {
+	font-size: math.div( ($font-size-px * 1rem), $root-font-size )
+}
+
+body {
+	background: #fef4f4;
+	margin: auto;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}

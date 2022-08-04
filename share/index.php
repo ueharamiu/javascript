@@ -10,11 +10,9 @@
 		<title>シェアボタン練習ページ</title>
 	</head>
 	<body>
-		<ul class="p-share-list">
-			<li class="p-share-list__item"><a href="https://twitter.com/ueharamiu">Twitterシェアボタン</a></li>
-			<li class="p-share-list__item"><a href="https://www.facebook.com/ueharamiu.dog/">Facebookシェアボタン</a></li>
-			<li class="p-share-list__item"><a href="https://www.instagram.com/ueharamiu/">Instagramシェアボタン</a></li>
-		</ul>
+		<p class="p-button">
+			<a class="c-share" href="./page1.html" target="_blank">上原ミウホームページシェアボタン</a> <!-- サイト URL を Twitter へシェアする -->
+		</p>
 		<script src="js/bundle.js"></script>
 	</body>
 </html>
